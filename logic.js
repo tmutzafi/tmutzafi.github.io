@@ -22,8 +22,6 @@ async function getComps(instance, options) {
 }
 
 const getCompsPublic = async () => {
-    console.log('getCompsPublic getCompsPublic', res)
-
     const res = await getComps(siteToUpdateInstance, {publishedRevision: true, pageId: 'c1dmp'})
     console.log('RESSSSSS', res)
 }
